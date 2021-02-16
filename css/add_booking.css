@@ -1,0 +1,544 @@
+main {
+  margin-top: 3.6rem;
+}
+main .container {
+  background-color: #fff;
+  padding: 2.5rem 5rem 8rem;
+  border-radius: 10px;
+}
+
+.r-1 {
+  flex-direction: flex-end;
+}
+
+.main-title {
+  text-transform: uppercase;
+  font-family: "Airbnb Cereal App Bold";
+  font-size: 3rem;
+  color: #414141;
+  margin-right: 5.75rem;
+  margin-top: 2.6rem;
+}
+
+.chart-block {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  padding-bottom: 2.6rem;
+}
+
+.circle-block {
+  position: relative;
+  display: flex;
+  width: 2.35rem;
+  height: 2.35rem;
+  border-radius: 50%;
+  border: 0.35rem solid #d5d5d5;
+}
+
+.circle-block.active {
+  border: 0.35rem solid #3a8af7;
+}
+.circle-block.active .circle {
+  background-color: #3a8af7;
+}
+.circle-block.active .circle-block-text {
+  color: #3a8af7;
+}
+
+.circle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 1.35rem;
+  height: 1.35rem;
+  background-color: #fff;
+  border-radius: 50%;
+}
+
+.circle-block-text {
+  position: absolute;
+  width: 7rem;
+  text-align: center;
+  bottom: -1.8rem;
+  left: 50%;
+  transform: translate(-50%, 100%);
+  color: #d5d5d5;
+  font-size: 1rem;
+  line-height: 1.3rem;
+}
+
+.line-block {
+  width: 12.3rem;
+  height: 0.35rem;
+  background-color: #d5d5d5;
+}
+
+.r2 {
+  margin-top: 5.8rem;
+  justify-content: space-between;
+}
+
+.customer-block {
+  width: 43.47%;
+}
+
+.main-subtitle {
+  font-size: 1.3rem;
+  line-height: 1.7rem;
+  color: #2b2b2b;
+}
+
+.r2 .main-subtitle {
+  margin-bottom: 0.45rem;
+}
+
+.main-text {
+  font-size: 2.4rem;
+  line-height: 3.1rem;
+  color: #3a8af7;
+  font-family: "Airbnb Cereal App Bold";
+  margin-bottom: 1.5rem;
+}
+.main-text .icon-pencil {
+  margin-left: 1.1rem;
+}
+
+.icon-pencil {
+  font-size: 1.8rem;
+  color: #d5d5d5;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.main-info-block {
+  margin-bottom: 1.5rem;
+  border-radius: 0.6rem;
+  border: 1px solid #d5d5d5;
+  padding: 1.95rem 2.5rem;
+  width: 100%;
+  box-shadow: 0px 0px 3px 1px rgba(213, 213, 213, 0.3);
+}
+.main-info-block .main-text {
+  margin-bottom: 0;
+}
+
+.title-block {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.main-block-title {
+  display: flex;
+  align-items: center;
+  font-size: 1.8rem;
+  line-height: 2.35rem;
+}
+.main-block-title img {
+  width: 1.75rem;
+  margin-right: 1.4rem;
+}
+
+.main-block-title .d-license {
+  width: 2.8rem;
+}
+
+.main-block-subtitle {
+  font-size: 1.3rem;
+  line-height: 1.7rem;
+  margin-bottom: 0.2rem;
+  color: #6b6b6b;
+}
+
+.inner-main-block {
+  margin-top: 1.4rem;
+}
+
+.numbers {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 0;
+}
+
+.number-block {
+  margin-top: 1.4rem;
+  width: 50%;
+}
+.number-block .main-text {
+  margin-bottom: 0;
+}
+
+.license {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.license img {
+  width: 25.73%;
+}
+
+#f-main-text {
+  margin-bottom: 1.4rem;
+}
+
+.inner-title-block {
+  display: flex;
+  align-items: center;
+  width: 71.3%;
+}
+
+#title-car {
+  width: 42.12%;
+  border-radius: 2px;
+  border: 1px solid #d5d5d5;
+  margin-right: 1.5rem;
+}
+
+.car-name {
+  font-size: 1.6rem;
+  line-height: 2.05rem;
+  color: #2b2b2b;
+  margin-bottom: 0.4rem;
+  font-family: "Airbnb Cereal App Bold";
+}
+
+.car-info {
+  font-size: 1.1rem;
+  line-height: 1.4rem;
+  color: #6b6b6b;
+  margin-bottom: 1rem;
+}
+.car-info span {
+  margin-right: 0.35rem;
+}
+
+.icon-car_2 {
+  margin-left: 0.95rem;
+}
+
+.car-price {
+  font-size: 1.2rem;
+  line-height: 1.55rem;
+  color: #6b6b6b;
+}
+.car-price span {
+  font-size: 1.6rem;
+  line-height: 2.05rem;
+  color: #3a8af7;
+  margin-left: 0.3rem;
+}
+
+.title-img-block {
+  position: relative;
+  padding-top: 19.7%;
+  width: 22.72%;
+  border-radius: 2px;
+  border: 1px solid #d5d5d5;
+  margin-right: 1.5rem;
+}
+
+#title-img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 50%;
+}
+
+.question-block {
+  display: flex;
+  align-items: center;
+}
+
+.checkbox-btn {
+  display: block;
+  width: 1.6rem;
+  height: 1.6rem;
+  border: 1px solid #fc6464;
+  border-radius: 2px;
+}
+
+label {
+  position: relative;
+  width: 1.6rem;
+  height: 1.6rem;
+}
+label .checkbox-btn {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+label:before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100%;
+  border: 1px solid #fc6464;
+  margin-right: 1.9rem;
+  border-radius: 2px;
+}
+
+.question {
+  color: #fc6464;
+  font-size: 1.4rem;
+  line-height: 1.8rem;
+  margin-left: 1.9rem;
+}
+
+.checklist-block {
+  border-radius: 0.6rem;
+  width: 100%;
+  border: 1px solid #d5d5d5;
+  box-shadow: 0px 0px 3px 1px rgba(213, 213, 213, 0.3);
+}
+
+.checklist-header {
+  padding: 1.4rem 0 1.2rem 2.8rem;
+  background-color: whitesmoke;
+  display: flex;
+}
+
+.checklist-title {
+  font-size: 1.6rem;
+  line-height: 2.05rem;
+  font-family: "Airbnb Cereal App Bold";
+  margin-right: 5rem;
+}
+
+.checklist-body {
+  padding: 1.75rem 3.3rem 2.5rem 2.8rem;
+}
+
+.checklist-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+.item-name {
+  width: 9.3rem;
+  margin-right: 5rem;
+  font-size: 1.6rem;
+  font-family: "Airbnb Cereal App Bold";
+}
+
+.item-btn {
+  margin-right: 0.95rem;
+  padding: 1.1rem 2.5rem;
+  font-size: 1.5rem;
+  font-family: "Airbnb Cereal App Bold";
+  background-color: #fff;
+  border: 1px solid #d5d5d5;
+}
+
+.custom-item {
+  align-items: flex-start;
+  margin-bottom: 0;
+}
+.custom-item .item-name {
+  margin-top: 1rem;
+}
+.custom-item textarea {
+  border: 1px solid #d5d5d5;
+  width: 69.56%;
+}
+
+.car-settings-block {
+  width: 48.77%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.rent-time-block {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 2.8rem 2.6rem;
+  background: linear-gradient(to right, #3a8af7, #53b2f8);
+  border-radius: 2px;
+}
+
+.time-block {
+  display: flex;
+  align-items: center;
+  width: 40.34%;
+}
+
+.icon-start {
+  margin-right: 1.95rem;
+  color: #fff;
+  font-size: 3.6rem;
+}
+
+.icon-end {
+  margin-right: 1.95rem;
+  color: #fff;
+  font-size: 3.6rem;
+}
+
+.time-text-block {
+  color: #fff;
+}
+
+.time-title {
+  font-size: 1.8rem;
+  line-height: 2.35rem;
+  margin-bottom: 0.9rem;
+}
+
+.time-text {
+  font-size: 1.7rem;
+  line-height: 2.2rem;
+  font-family: "Airbnb Cereal App Light";
+}
+
+.icon-between {
+  font-size: 3.2rem;
+  color: #3a8af7;
+}
+
+.custom-block {
+  border: 1px solid #3a8af7;
+  padding: 4rem 2.6rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.custom-block .main-text {
+  margin-bottom: 0;
+}
+.custom-block .custom-text {
+  font-family: "American Typewriter Bold";
+  font-size: 3.2rem;
+  line-height: 3.95rem;
+  padding: 1.05rem 3.35rem;
+  border: 1px solid #3a8af7;
+}
+
+.img-block {
+  width: 100%;
+  border: 1px solid #d5d5d5;
+  border-radius: 2px;
+}
+.img-block img {
+  width: 66.87%;
+  margin: auto;
+}
+
+.buttons-block {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.settings-btn {
+  width: 46.85%;
+  text-align: center;
+  font-size: 2.2rem;
+  line-height: 2.8rem;
+  color: #3a8af7;
+  padding: 3.1rem 0;
+  border-radius: 0.75rem;
+  text-transform: uppercase;
+  font-family: "Airbnb Cereal App Bold";
+}
+
+.left-btn {
+  background-color: #d2e5ff;
+}
+
+.right-btn {
+  background-color: #fff;
+  border: 0.4rem solid #3a8af7;
+}
+
+.img-block.custom {
+  height: 30rem;
+}
+
+.border-block {
+  width: 89%;
+  margin: 6rem auto 4.4rem;
+  border-bottom: 1px solid #d5d5d5;
+}
+
+#main.right-btn {
+  width: 31.25%;
+  margin: auto;
+  font-size: 2.4rem;
+  line-height: 3.1rem;
+}
+
+@media screen and (min-width: 1366px) and (max-height: 650px) {
+  html {
+    font-size: 10px;
+  }
+}
+@media screen and (max-width: 1366px) {
+  html {
+    font-size: 8px;
+  }
+}
+@media screen and (max-width: 992px) {
+  html {
+    font-size: 6px;
+  }
+}
+@media screen and (max-width: 768px) {
+  html {
+    font-size: 9px;
+  }
+
+  .r2 {
+    flex-direction: column;
+  }
+
+  .r-1 {
+    flex-direction: column;
+  }
+
+  .main-title {
+    margin-bottom: 1.5rem;
+  }
+
+  .customer-block {
+    width: 100%;
+  }
+
+  .car-settings-block {
+    width: 100%;
+  }
+
+  .buttons-block {
+    margin: 1.5rem 0;
+  }
+
+  .custom-block {
+    margin: 1.5rem 0;
+  }
+
+  .rent-time-block {
+    margin-top: 1.5rem;
+  }
+
+  #main.right-btn {
+    width: 100%;
+  }
+
+  .border-block {
+    width: 100%;
+    margin: 2.9rem auto 4.4rem;
+  }
+}
+@media screen and (max-width: 576px) {
+  html {
+    font-size: 6px;
+  }
+}

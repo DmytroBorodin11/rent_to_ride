@@ -1,0 +1,501 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="description" content="">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Rent Booking List</title>
+		<link rel="stylesheet" href="fonts/icomoon.css">
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/rent_booking_list.css">
+		<link rel="author" href="humans.txt">
+	</head>
+	<body>
+		<header>
+			<div class="container">
+				<div class="row nav-row">
+					<div class="left-block">
+						<div class="menu-icon">
+							<div class="icon-block">
+								<span></span>
+							</div>
+						</div>
+						<a href='index.html' class="logo-title">ROR</a>
+					</div>
+					<div class="central-block">
+						<button class="header-button" id='booking'>
+						<a href="#">
+							Rental Booking
+						</a>
+						</button>
+						<button class="header-button" id='extensions'>
+						<a href="#">
+							Rental extensions
+						</a>
+						</button>
+						<button class="header-button" id='checkin'>
+						<a href="#">
+							Rental CHECKIN
+						</a>
+						</button>
+						<button class="header-button" id='add-sale'>
+						<a href="#">
+							Add Sale
+						</a>
+						</button>
+					</div>
+					<div class="right-block">
+						<span class="icon-search"></span>
+						<div class="notification-icon">
+							<span class="icon-bell"></span>
+							<span class="active"></span>
+						</div>
+						<div class="user-icon-block">
+							<img src="imgs/user-icon.png" alt="">
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+		<div class="menu-popup">
+			<div class="app-menu">
+				<div class="close-btn">
+					<span></span>
+				</div>
+				<h3 class="appmenu-title">
+				Rent To Ride
+				</h3>
+				<div class="app-menu-section">
+					<a href="#" class="app-menu-item">
+						<span class="icon-mi-1"></span>
+						Dashboard
+					</a>
+					<a href="#" class="app-menu-item">
+						<span class="icon-mi-2"></span>
+						Activities
+					</a>
+				</div>
+				<div class="app-menu-section">
+					<a href="#" class="app-menu-item">
+						<span class="icon-mi-3"></span>
+						Rent Bookings
+					</a>
+					<a href="#" class="app-menu-item">
+						<span class="icon-mi-4"></span>
+						Lease Bookings
+					</a>
+					<a href="#" class="app-menu-item">
+						<span class="icon-mi-5"></span>
+						Sale Bookings
+					</a>
+				</div>
+				<div class="app-menu-section">
+					<a href="#" class="app-menu-item">
+						<span class="icon-mi-6"></span>
+						Inventory
+					</a>
+					<a href="#" class="app-menu-item">
+						<span class="icon-mi-7"></span>
+						Customer
+					</a>
+					<a href="#" class="app-menu-item">
+						<span class="icon-mi-8"></span>
+						Staff
+					</a>
+				</div>
+				<div class="app-menu-section">
+					<a href="#" class="app-menu-item">
+						<span class="icon-mi-9"></span>
+						Car Type & Rates
+					</a>
+					<a href="#" class="app-menu-item">
+						<span class="icon-mi-10"></span>
+						Customer Care
+					</a>
+					<a href="#" class="app-menu-item">
+						<span class="icon-mi-11"></span>
+						Invoice
+					</a>
+				</div>
+			</div>
+			<div class="close-block"></div>
+		</div>
+		<main>
+			<div class="container">
+				<div class="main-title-block">
+					<h3 class="main-title">
+						Rent Bookings
+					</h3>
+					<form action="" class='search-form'>
+						<input type="text" placeholder="Search User">
+						<span class="icon-search"></span>
+					</form>
+				</div>
+				<div class="table-header">
+					<h5 class="tabe-col-title ft">
+						Name & Ref. ID
+					</h5>
+					<h5 class="tabe-col-title st">
+						Car & Price
+					</h5>
+					<h5 class="tabe-col-title tht">
+						Start Time
+					</h5>
+					<h5 class="tabe-col-title fst">
+						End Time
+					</h5>
+					<h5 class="tabe-col-title fft">
+						Action
+					</h5>
+				</div>
+				<div class="table-block">
+					<div class="table-row row">
+						<div class="user-contact-block">
+							<div class="user-img-block">
+								<span>SJ</span>
+							</div>
+							<div class="user-info-block">
+								<p class="user-name prime-text">
+									Sophia Jame
+								</p>
+								<p class="user-phone-number table-sub-text">
+									R2R0076
+								</p>
+							</div>								
+						</div>
+						<div class="car-price-block">
+							<p class="car-name prime-text">Chevrolet Impala - HYE 517</p>
+							<p class="price table-sub-text">$700.00</p>
+						</div>
+						<div class="date-block f">
+							<p class="date prime-text">
+								July 22, 2020
+							</p>
+							<p class="time table-sub-text">
+								11:00 PM
+							</p>
+						</div>
+						<div class="date-block">
+							<p class="date prime-text">
+								July 22, 2020
+							</p>
+							<p class="time table-sub-text">
+								11:00 PM
+							</p>
+						</div>
+						<div class="action-block">
+							<button class="action-btn" id='delete'>
+								Delete
+							</button>
+							<button class="action-btn" id='checkout'>
+								Checkout
+							</button>
+							<button class="action-btn" id='extension'>
+								Extension
+							</button>
+							<button id='bucket'>
+								<img src="imgs/bucket.svg" alt="">
+							</button>
+						</div>
+					</div>
+					<div class="table-row row">
+						<div class="user-contact-block">
+							<div class="user-img-block">
+								<span>SJ</span>
+							</div>
+							<div class="user-info-block">
+								<p class="user-name prime-text">
+									Sophia Jame
+								</p>
+								<p class="user-phone-number table-sub-text">
+									R2R0076
+								</p>
+							</div>								
+						</div>
+						<div class="car-price-block">
+							<p class="car-name prime-text">Chevrolet Impala - HYE 517</p>
+							<p class="price table-sub-text">$700.00</p>
+						</div>
+						<div class="date-block f">
+							<p class="date prime-text">
+								July 22, 2020
+							</p>
+							<p class="time table-sub-text">
+								11:00 PM
+							</p>
+						</div>
+						<div class="date-block">
+							<p class="date prime-text">
+								July 22, 2020
+							</p>
+							<p class="time table-sub-text">
+								11:00 PM
+							</p>
+						</div>
+						<div class="action-block">
+							<button class="action-btn" id='delete'>
+								Delete
+							</button>
+							<button class="action-btn" id='checkout'>
+								Checkout
+							</button>
+							<button class="action-btn" id='extension'>
+								Extension
+							</button>
+							<button id='bucket'>
+								<img src="imgs/bucket.svg" alt="">
+							</button>
+						</div>
+					</div>
+					<div class="table-row row">
+						<div class="user-contact-block">
+							<div class="user-img-block">
+								<span>SJ</span>
+							</div>
+							<div class="user-info-block">
+								<p class="user-name prime-text">
+									Sophia Jame
+								</p>
+								<p class="user-phone-number table-sub-text">
+									R2R0076
+								</p>
+							</div>								
+						</div>
+						<div class="car-price-block">
+							<p class="car-name prime-text">Chevrolet Impala - HYE 517</p>
+							<p class="price table-sub-text">$700.00</p>
+						</div>
+						<div class="date-block f">
+							<p class="date prime-text">
+								July 22, 2020
+							</p>
+							<p class="time table-sub-text">
+								11:00 PM
+							</p>
+						</div>
+						<div class="date-block">
+							<p class="date prime-text">
+								July 22, 2020
+							</p>
+							<p class="time table-sub-text">
+								11:00 PM
+							</p>
+						</div>
+						<div class="action-block">
+							<button class="action-btn" id='delete'>
+								Delete
+							</button>
+							<button class="action-btn" id='checkout'>
+								Checkout
+							</button>
+							<button class="action-btn" id='extension'>
+								Extension
+							</button>
+							<button id='bucket'>
+								<img src="imgs/bucket.svg" alt="">
+							</button>
+						</div>
+					</div>
+					<div class="table-row row">
+						<div class="user-contact-block">
+							<div class="user-img-block">
+								<span>SJ</span>
+							</div>
+							<div class="user-info-block">
+								<p class="user-name prime-text">
+									Sophia Jame
+								</p>
+								<p class="user-phone-number table-sub-text">
+									R2R0076
+								</p>
+							</div>								
+						</div>
+						<div class="car-price-block">
+							<p class="car-name prime-text">Chevrolet Impala - HYE 517</p>
+							<p class="price table-sub-text">$700.00</p>
+						</div>
+						<div class="date-block f">
+							<p class="date prime-text">
+								July 22, 2020
+							</p>
+							<p class="time table-sub-text">
+								11:00 PM
+							</p>
+						</div>
+						<div class="date-block">
+							<p class="date prime-text">
+								July 22, 2020
+							</p>
+							<p class="time table-sub-text">
+								11:00 PM
+							</p>
+						</div>
+						<div class="action-block">
+							<button class="action-btn" id='delete'>
+								Delete
+							</button>
+							<button class="action-btn" id='checkout'>
+								Checkout
+							</button>
+							<button class="action-btn" id='extension'>
+								Extension
+							</button>
+							<button id='bucket'>
+								<img src="imgs/bucket.svg" alt="">
+							</button>
+						</div>
+					</div>
+					<div class="table-row row">
+						<div class="user-contact-block">
+							<div class="user-img-block">
+								<span>SJ</span>
+							</div>
+							<div class="user-info-block">
+								<p class="user-name prime-text">
+									Sophia Jame
+								</p>
+								<p class="user-phone-number table-sub-text">
+									R2R0076
+								</p>
+							</div>								
+						</div>
+						<div class="car-price-block">
+							<p class="car-name prime-text">Chevrolet Impala - HYE 517</p>
+							<p class="price table-sub-text">$700.00</p>
+						</div>
+						<div class="date-block f">
+							<p class="date prime-text">
+								July 22, 2020
+							</p>
+							<p class="time table-sub-text">
+								11:00 PM
+							</p>
+						</div>
+						<div class="date-block">
+							<p class="date prime-text">
+								July 22, 2020
+							</p>
+							<p class="time table-sub-text">
+								11:00 PM
+							</p>
+						</div>
+						<div class="action-block">
+							<button class="action-btn" id='delete'>
+								Delete
+							</button>
+							<button class="action-btn" id='checkout'>
+								Checkout
+							</button>
+							<button class="action-btn" id='extension'>
+								Extension
+							</button>
+							<button id='bucket'>
+								<img src="imgs/bucket.svg" alt="">
+							</button>
+						</div>
+					</div>
+					<div class="table-row row">
+						<div class="user-contact-block">
+							<div class="user-img-block">
+								<span>SJ</span>
+							</div>
+							<div class="user-info-block">
+								<p class="user-name prime-text">
+									Sophia Jame
+								</p>
+								<p class="user-phone-number table-sub-text">
+									R2R0076
+								</p>
+							</div>								
+						</div>
+						<div class="car-price-block">
+							<p class="car-name prime-text">Chevrolet Impala - HYE 517</p>
+							<p class="price table-sub-text">$700.00</p>
+						</div>
+						<div class="date-block f">
+							<p class="date prime-text">
+								July 22, 2020
+							</p>
+							<p class="time table-sub-text">
+								11:00 PM
+							</p>
+						</div>
+						<div class="date-block">
+							<p class="date prime-text">
+								July 22, 2020
+							</p>
+							<p class="time table-sub-text">
+								11:00 PM
+							</p>
+						</div>
+						<div class="action-block">
+							<button class="action-btn" id='delete'>
+								Delete
+							</button>
+							<button class="action-btn" id='checkout'>
+								Checkout
+							</button>
+							<button class="action-btn" id='extension'>
+								Extension
+							</button>
+							<button id='bucket'>
+								<img src="imgs/bucket.svg" alt="">
+							</button>
+						</div>
+					</div>
+					<div class="table-row row">
+						<div class="user-contact-block">
+							<div class="user-img-block">
+								<span>SJ</span>
+							</div>
+							<div class="user-info-block">
+								<p class="user-name prime-text">
+									Sophia Jame
+								</p>
+								<p class="user-phone-number table-sub-text">
+									R2R0076
+								</p>
+							</div>								
+						</div>
+						<div class="car-price-block">
+							<p class="car-name prime-text">Chevrolet Impala - HYE 517</p>
+							<p class="price table-sub-text">$700.00</p>
+						</div>
+						<div class="date-block f">
+							<p class="date prime-text">
+								July 22, 2020
+							</p>
+							<p class="time table-sub-text">
+								11:00 PM
+							</p>
+						</div>
+						<div class="date-block">
+							<p class="date prime-text">
+								July 22, 2020
+							</p>
+							<p class="time table-sub-text">
+								11:00 PM
+							</p>
+						</div>
+						<div class="action-block">
+							<button class="action-btn" id='delete'>
+								Delete
+							</button>
+							<button class="action-btn" id='checkout'>
+								Checkout
+							</button>
+							<button class="action-btn checkin" id='extension'>
+								Extension
+							</button>
+							<button id='bucket'>
+								<img src="imgs/bucket.svg" alt="">
+							</button>
+						</div>
+					</div>
+				</div>	
+			</div>
+		</main>
+		<script src='js/rent-booking-list.js'></script>
+		<script src="js/main.js"></script>
+	</body>
+</html>

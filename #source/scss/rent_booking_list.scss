@@ -1,0 +1,512 @@
+.left-block {
+	display: flex;
+	align-items: center;
+}
+.logo-title {
+	font-size: 3.8rem;
+	line-height: 4.7rem;
+	text-transform: uppercase;
+	background: -webkit-linear-gradient(#3a8af7, #53b2f8);
+  	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;
+  	margin-left: 2.8rem;
+}
+.central-block {
+	width: 60.78%;
+	height: 6rem;
+	display: flex;
+	justify-content: space-between;
+}
+.header-button {
+	height: 100%;
+	width: 23.46%;
+	border-radius: 4px;
+	a {
+		height: 100%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		color: #fff;
+		text-transform: uppercase;
+		font-family: "Airbnb Cereal App Bold";
+		font-size: 1.5rem;
+		line-height: 1.9rem;
+	}
+}
+#booking {
+	background: linear-gradient(to right, rgb(58, 138, 247), rgb(83, 178, 248));
+	width: 26.67%;
+}
+#extensions {
+	background: linear-gradient(to right, rgb(68, 201, 215), rgb(87, 225, 240));
+}
+#checkin {
+	background: linear-gradient(to right, rgb(77, 215, 68), rgb(88, 244, 77));
+}
+#add-sale {
+	background: linear-gradient(to right, rgb( 247, 58, 58), rgb(255, 70, 70));
+	width: 22.56%;
+}
+main {
+	margin-top: 3.5rem;
+	.container {
+		padding: 1.9rem 0 4.5rem;
+		border-radius: 10px;
+		background-color: #fff;
+	}
+}
+.main-title-block {
+	padding: 0 2.5rem 0 5.15rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.main-title {
+	text-transform: uppercase;
+	font-size: 3rem;
+	line-height: 4rem;
+	color: rgb(43, 43, 43)
+}
+.search-form {
+	width: 15.27%;
+	position: relative;
+	input {
+		width: 100%;
+		background-color: rgb(246, 246, 246);
+		border: 1px solid rgb(229, 229, 229);
+		line-height: 1.3rem;
+		font-size: 1rem;
+		padding: 0.85rem 1.5rem;
+		border-radius: 0.8rem;
+		&::placeholder {
+			color: rgb(210, 210, 210);
+
+		}
+	}
+	.icon-search {
+		position: absolute;
+		top: 50%;
+		right: -12%;
+		transform: translateY(-50%);
+		color: rgb(210, 210, 210);
+	}
+}
+
+.table-header {
+	margin-top: 2.2rem;
+	display: flex;
+	padding: 1.2rem 0 1.2rem 5.75rem;
+	background-color: rgb(238, 238, 238);
+	text-transform: uppercase;
+	color:  rgb(43, 43, 43);
+}
+.tabe-col-title {
+	font-size: 2rem;
+	line-height: 2.6rem;
+}
+.ft {
+	margin-right: 6.55%;
+}
+.st {
+	margin-right: 15.1%;
+}
+.tht {
+	margin-right: 7.12%;
+}
+.fst {
+	margin-right: 7.28%;
+}
+.table-row {
+	padding: 2.95rem 2.5rem 2.5rem 5rem;
+	border-bottom: 1px solid rgb(218, 218, 218);
+	align-items: center;
+}
+.prime-text {
+	color:  rgb(43, 43, 43);
+	font-size: 1.8rem;
+	line-height: 2.35rem;
+	font-family: "Airbnb Cereal App Bold";
+}
+.table-sub-text {
+	font-size: 1.5rem;
+	line-height: 1.95rem;
+	margin-top: 0.15rem;
+	text-transform: uppercase;
+	font-family: "Airbnb Cereal App Medium";
+}
+.user-contact-block {
+	display: flex;
+	align-items: center;
+	margin-right: 5.05%;
+}
+.user-img-block {
+	width: 4.95rem;
+	height: 4.95rem;
+	border-radius: 50%;
+	background-color: rgb(255, 90, 90);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 2rem;
+	line-height: 2.6rem;
+	margin-right: 0.9rem;
+}
+.user-phone-number {
+	color: rgb(59, 139, 247);
+}
+.car-price-block {
+	margin-right: 6.51%;
+}
+.price {
+	color: rgb(248, 46, 46);
+}
+.date-block.f {
+	margin-right: 7.1%;
+}
+.date-block {
+	margin-right: 5.7%;
+}
+.time {
+	color: rgb(110, 110, 110);
+}
+.action-block {
+	display: flex;
+	align-items: center;
+}
+.action-btn {
+	font-size: 1.2rem;
+	line-height: 1.5rem;
+	color: #fff;
+	padding: 1.7rem;
+	border-radius: 0.4rem;	
+}
+#delete {
+	margin-right: 1rem;
+	background-color: rgb(68, 172, 238);
+}
+#checkout {
+	background-color: rgb(246, 212, 59);
+	margin-right: 1rem;
+}
+#checkout.checkin {
+	background-color: rgb(77, 215, 68);
+}
+#extension {
+	display: none;
+	background-color: rgb(250, 193, 25);
+	margin-right: 1rem;
+}
+#extension.checkin {
+	display: block;
+}
+#bucket{
+	background-color: transparent;
+	img {
+		width: 1.95rem;
+	}
+}
+@media screen and (max-width: 1365px) {
+	.search-form {
+		width: 25%;
+		position: relative;
+		input {
+			width: 100%;
+			background-color: rgb(246, 246, 246);
+			border: 1px solid rgb(229, 229, 229);
+			line-height: 1.3rem;
+			font-size: 1rem;
+			padding: 0.85rem 1.5rem;
+			border-radius: 0.8rem;
+			&::placeholder {
+				color: rgb(210, 210, 210);
+
+			}
+		}
+		.icon-search {
+			position: absolute;
+			top: 50%;
+			right: -14%;
+			transform: translateY(-50%);
+			color: rgb(210, 210, 210);
+		}
+	}
+	.table-row {
+		padding: 2rem 2.5rem 2.5rem 2rem;
+	}
+	.table-header {
+		margin-top: 2.2rem;
+		padding: 1.2rem 2rem 1.2rem 2rem;
+	}
+	.tabe-col-title {
+		font-size: 1.6rem;
+		line-height: 2rem;
+	}
+	.main-title-block {
+		padding: 0 2rem 0 2rem;
+	}
+	.prime-text {
+		color:  rgb(43, 43, 43);
+		font-size: 1.4rem;
+		line-height: 2rem;
+		font-family: "Airbnb Cereal App Bold";
+	}
+	.table-sub-text {
+		font-size: 1.1rem;
+		line-height: 1.3rem;
+	}
+	.user-img-block {
+		width: 3.5rem;
+		height: 3.5rem;
+		font-size: 1.5rem;
+		line-height: 2rem;
+	}
+	.action-btn {
+		padding: 1.2rem;
+	}
+	.fst {
+		margin-right: 6.9%;
+	}
+}
+@media screen and (max-width: 1200px) {
+	.table-row {
+		padding: 2rem 2.5rem 2.5rem 8rem;
+	}
+	.table-header {
+		margin-top: 2.2rem;
+		padding: 1.2rem 2rem 1.2rem 8rem;
+	}
+	.main-title-block {
+		padding: 0 2rem 0 8rem;
+	}
+}
+@media screen and (max-width: 991px) {
+	.central-block {
+		width: 50%;
+		height: 4rem;
+	}
+	.header-button {
+		a {
+			font-size: 1.2rem;
+			line-height: 1.4rem;
+		}
+	}
+	.table-row {
+		padding: 2rem 2.5rem 2.5rem 2rem;
+	}
+	.table-header {
+		margin-top: 2.2rem;
+		padding: 1.2rem 2rem 1.2rem 2rem;
+	}
+	.main-title-block {
+		padding: 0 2rem 0 2rem;
+	}
+	.ft {
+		margin-right: 4.55%;
+	}
+	.st {
+		margin-right: 12.31%;
+	}
+	.tht {
+		margin-right: 5%;
+	}
+	.fst {
+		margin-right: 5.2%;
+	}
+	.user-contact-block {
+		margin-right: 3.05%;
+	}
+	.car-price-block {
+		margin-right: 2.51%;
+	}
+	.date-block.f {
+		margin-right: 5.1%;
+	}
+	.date-block {
+		margin-right: 3.7%;
+	}
+	#bucket{
+		img {
+			width: 1.4rem;
+		}
+	}
+	.action-btn {
+		padding: 1rem;
+	}
+}
+@media screen and (max-width: 767px) {
+	.main-title {
+		font-size: 2.5rem;
+		line-height: 3.2rem;
+	}
+	.search-form {
+		position: relative;
+		input {
+			line-height: 1rem;
+			font-size: 0.9rem;
+			padding: 0.85rem 1rem;
+			border-radius: 0.6rem;
+		}
+		.icon-search {
+			top: 50%;
+			right: -7%;
+		}
+	}
+	.table-row {
+		padding: 2rem 1rem 2.5rem 1rem;
+	}
+	.table-header {
+		margin-top: 2.2rem;
+		padding: 1.2rem 1rem 1.2rem 1rem;
+	}
+	.main-title-block {
+		padding: 0 1rem 0 1rem;
+	}
+	.tabe-col-title {
+		font-size: 1.4rem;
+		line-height: 1.8rem;
+	}
+	.prime-text {
+		color:  rgb(43, 43, 43);
+		font-size: 1.2rem;
+		line-height: 1.6rem;
+	}
+	.table-sub-text {
+		font-size: 0.9rem;
+		line-height: 1.1rem;
+	}
+	.user-img-block {
+		width: 2.8rem;
+		height: 2.8rem;
+		font-size: 1.1rem;
+		line-height: 1.6rem;
+	}
+	.action-btn {
+		padding: 0 0.5rem;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		height: 2.2rem;
+		font-size: 0.9rem;
+		line-height: 0.9rem;
+	}
+	#delete {
+		margin-right: 0.5rem;
+		background-color: rgb(68, 172, 238);
+	}
+	#checkout {
+		background-color: rgb(246, 212, 59);
+		margin-right: 0.5rem;
+	}
+	#extension {
+		display: none;
+		background-color: rgb(250, 193, 25);
+		margin-right: 0.5rem;
+	}
+	.tht {
+		margin-right: 4%;
+	}
+	.fst {
+		margin-right: 5%;
+	}
+	#bucket{
+		img {
+			width: 1.1rem;
+		}
+	}
+}
+@media screen and (max-width: 576px) {
+	.central-block {
+		width: 100%;
+		order: 3;
+		margin-top: 1rem;
+		height: 4rem;
+	}
+	.search-form {
+		width: 40%;
+		.icon-search {
+			right: -10%;
+		}
+	}
+	main {
+		margin-top: 9.5rem;
+	}
+	.tabe-col-title {
+		font-size: 1.2rem;
+		line-height: 1.6rem;
+	}
+	.table-sub-text {
+		margin-top: 0.3rem;
+	}
+	.ft {
+		margin-right: 7.55%;
+	}
+	.st {
+		margin-right: 6.1%;
+	}
+	.tht {
+		margin-right: 3.5%;
+	}
+	.fst {
+		margin-right: 3.2%;
+	}
+	.car-price-block {
+		width: 50px;
+		margin-right: 3.51%;
+	}
+	.date-block.f {
+		margin-right: 7.1%;
+	}
+	.date-block {
+		width: 30px;
+		margin-right: 3.7%;
+	}
+	.action-btn {
+		padding: 0 0.7rem;
+		font-size: 0.8rem;
+		line-height: 0.8rem;
+	}
+	#delete {
+		margin-right: 0.3rem;
+	}
+	#checkout {
+		margin-right: 0.3rem;
+	}
+	#extension {
+		margin-right: 0.3rem;
+	}
+	#bucket{
+		img {
+			width: 0.8rem;
+		}
+	}
+}
+@media screen and (max-width: 374px) {
+	.action-btn {
+		padding: 0 0.5rem ;
+		font-size: 0.7rem;
+		line-height: 0.7rem;
+	}
+	.user-info-block {
+		width: 30px;
+	}
+	.ft {
+		margin-right: 3.55%;
+	}
+}
+@media screen and (max-height: 650px){
+	html {
+	    font-size: 8px;
+	}
+}
+@media screen and (max-width: 767px) and (max-height: 650px) {
+	html {
+		font-size: 7px;
+	}
+}
+@media screen and (max-width: 576px) and (max-height: 650px) {
+	html {
+		font-size: 6px;
+	}
+}

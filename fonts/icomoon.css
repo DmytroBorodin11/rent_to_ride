@@ -1,0 +1,66 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?l1uvx9');
+  src:  url('fonts/icomoon.eot?l1uvx9#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?l1uvx9') format('truetype'),
+    url('fonts/icomoon.woff?l1uvx9') format('woff'),
+    url('fonts/icomoon.svg?l1uvx9#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-mi-11:before {
+  content: "\e90b";
+}
+.icon-mi-2:before {
+  content: "\e900";
+}
+.icon-bell:before {
+  content: "\e901";
+}
+.icon-mi-9:before {
+  content: "\e902";
+}
+.icon-mi-10:before {
+  content: "\e903";
+}
+.icon-mi-7:before {
+  content: "\e904";
+}
+.icon-mi-1:before {
+  content: "\e905";
+}
+.icon-mi-6:before {
+  content: "\e906";
+}
+.icon-mi-4:before {
+  content: "\e907";
+}
+.icon-mi-3:before {
+  content: "\e908";
+}
+.icon-mi-5:before {
+  content: "\e909";
+}
+.icon-search:before {
+  content: "\e90a";
+}
+.icon-mi-8:before {
+  content: "\e90c";
+}
